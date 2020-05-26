@@ -11,49 +11,40 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* [Neural Networks and Deep Learning](http://coursera.org/verify/FCRC97NBCLTG), Coursera, 2020
+* [Microsoft DEV285x: Algorithms and Data Structures](https://courses.edx.org/certificates/24bc0be727fa4ad89d735402bb03d1ce), edX, 2019
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Oct 2017 - Jan 2019: Frontend Web/Android Developer at Max Speed Digital
+  * Technologies:
+    * HTML5
+    * CSS3
+    * jQuery
+    * Java
+  * Duties included: web development (frontend and backend functionality), Android development, assisting with UI/UX design.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jan 2019 - Present: Software Developer at Omnipresent
+  * Technologies:
+    * Java
+    * C++
+    * Python 3
+    * OpenCV
+    * Docker
+    * Spring Boot
+    * Google Cloud Platform
+    * Bitbucket Pipelines
+  * Duties included: development of REST APIs and microservices, research and development of computer vision algorithms, code reviewing and teaching.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Java 
+* Python 3
+* C++
+* Artificial Intelligence
+  * Neural Networks and Deep Learning
+  * Computer Vision
+* Android
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
