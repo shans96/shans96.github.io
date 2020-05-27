@@ -30,12 +30,12 @@ $$
 The architecture of the network is presented below. Note that the number of neurons isn't relevant to the derivations, and additionally note that we'll initialize the weights and biases for this network randomly.
 
 <p align="center">
-  <img src="../images/2-layer-nn.svg" alt="Neural Network Architecture">
+  <img src="https://raw.githubusercontent.com/shans96/shans96.github.io/master/images/2-layer-nn.svg" alt="Neural Network Architecture">
 </p>
 
 We can write out all the necessary calculations for a successful forward pass as a computation graph:
 
-![Computation Graph](../images/2-layer-nn-computation-graph.svg)
+![Computation Graph](https://raw.githubusercontent.com/shans96/shans96.github.io/master/images/2-layer-nn-computation-graph.svg)
 
 With this complete, we now know what the loss/error of the network is, but we need some way of minimizing $L$ by adjusting the biases and weights- in other words, achieving the goal of the network. As it turns out, we can use an algorithm called stochastic gradient descent to do this. For some function $f(x)$, the algorithm begins by selecting a random value for $x$ and then calculates the following equation (usually until some criteria is met, such as a loop count): 
 
