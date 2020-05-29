@@ -37,7 +37,7 @@ We can write out all the necessary calculations for a successful forward pass as
 
 ![Computation Graph](https://raw.githubusercontent.com/shans96/shans96.github.io/master/images/2-layer-nn-computation-graph.png)
 
-With this complete, we now know what the loss/error of the network is, but we need some way of minimizing $L$ by adjusting the biases and weights- in other words, achieving the goal of the network. As it turns out, we can use an algorithm called stochastic gradient descent to do this. For some function $f(x)$, the algorithm begins by selecting a random value for $x$ and then calculates the following equation (usually until some criteria is met, such as a loop count): 
+With this complete, we now know what the loss/error of the network is, but we need some way of minimizing $L$ by adjusting the biases and weights- in other words, achieving the goal of the network. As it turns out, we can use an algorithm called gradient descent to do this. For some function $f(x)$, the algorithm begins by selecting a random value for $x$ and then calculates the following equation (usually until some criteria is met, such as a loop count): 
 
 $$
 x^{current} = x^{previous} - \alpha \frac{dy}{dx}
@@ -97,6 +97,7 @@ A^{[2]} - y
 $$
 
 Finally we can substitute, then get the equations for the biases and weights: 
+
 $$
 \frac{\partial L}{\partial W^{[2]}} = 
 (A^{[2]} - y) \cdot A^{[1]}
@@ -151,6 +152,7 @@ $$
 $$
 
 Completing the rest and simplifying gives us:
+
 $$
 \frac{\partial L}{\partial Z^{[1]}} = (A^{[2]} - y) \cdot W^{[2]} \cdot g'(Z^{[1]})
 $$
