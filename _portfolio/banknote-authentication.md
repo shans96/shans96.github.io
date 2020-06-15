@@ -1,6 +1,6 @@
 ---
 title: "Detecting Forged Bank Notes"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/banknote-authentication/banknote.jpg'>"
+excerpt: "Detecting forged banknotes with a neural network.<br/><img src='/images/banknote-authentication/banknote.jpg'>"
 collection: portfolio
 ---
 
