@@ -237,5 +237,7 @@ This was a relatively simple dataset- a low number of input features and clear d
 
 ## Citations
 Dua, D. and Graff, C. (2019). [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml). Irvine, CA: University of California, School of Information and Computer Science.
+
 Gillich, Eugen & Lohweg, Volker. (2010). [Banknote Authentication](https://www.researchgate.net/publication/266673146_Banknote_Authentication). 
+
 He, Zhang, Ren, and Sun. (2015). [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/abs/1502.01852)
