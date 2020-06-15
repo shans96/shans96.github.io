@@ -49,7 +49,7 @@ Min: [ -7.0421 -13.7731  -5.2861  -8.5482   0.    ]
 Max: [ 6.8248 12.9516 17.9274  2.4495  1.    ]
 ```
 
-Now, the dataset can be split. It will be divided into a training set, a validation set, and lastly a test set. The training set will be used for evaluating baseline performance and initial model creation, while the validation set will be used to adjust hyperparameters and additionally to monitor how the network performs on "unseen" data. The test set will be used only to measure performance of the fully tuned network.
+Now, the dataset can be split. It will be divided into a training set, a validation set, and lastly a test set. The training set will be used for evaluating baseline performance and initial model creation, while the validation set will be used to monitor overfitting. The test set will be used only to measure performance of the fully tuned network.
 
 The distribution of examples among sets will be 60%/20%/20%. The instances in the file are sorted by class, so the dataset has to be shuffled before splitting. The split won't be perfectly distributed, so the final numbers are 823/274/275. Shuffling and splitting is achieved by the code below.
 
