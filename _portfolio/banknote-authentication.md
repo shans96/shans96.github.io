@@ -85,7 +85,7 @@ This problem is a binary classification problem- it's either an authentic bankno
 
 ![Network Architecture](https://raw.githubusercontent.com/shans96/shans96.github.io/master/images/banknote-authentication/banknote-nn.png)
 
-The main functions of the network are given below. The code has been vectorized and therefore runs faster.
+The main functions of the network are given below, and these functions have been vectorized to maximize performance. If you're interested in finding out how the backpropagation equations were calculated for this network, you can find an explanation [here](https://shans96.github.io/posts/2020/05/2-layer-backprop/). 
 
 ```
 def convert_split_to_xy(split):
